@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('images/tabel_report.jpg') fixed;
+  background-size: cover;
+  font-family: 'Comfortaa';
+}
+
+.nav-button {
+  margin: 10px;
+  color: #3967C8;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s linear;
+
+}
+
+.nav-button:hover {
+  color: #804B1F;
+}
+
+header {
+  background-color: #DBF5CA;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  border-bottom: 4px solid silver;
+  line-height: 50px;
+  margin-bottom: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: fixed;
+  top: 0;
+  border-radius: 0% 0% 25px 25px;
+}
+
+main {
+  background-color: #DBF5CA;
+  text-align: center;
+  width: 50%;
+  height: 1000px;
+  margin: 15% 0%;
+  margin-left: 25%;
+  float: left;
+  border-radius: 25px;
+
+}
+
+main {
+  background-color: #DBF5CA;
+  text-align: justify;
+}
+
+.news {
+  float: left;
+  padding: 15px 0%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 2.5%;
+}
+
+.video_demo {
+  width: 750px;
+  padding: 10%;
+}
+.certificate {
+  background-color: #DBF5CA;
+  text-align: center;
+  font-weight: 600;
+  float: right;
+  width: 15%;
+  margin-right: 5%;
+  margin-top: 15%;
+  border-radius: 25px;
+}
+
+.sert {
+  width: 75%;
+  padding: 15px 0%;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  width: 50%;
+  height: 100px;
+  line-height: 100px;
+  margin-top: 50px;
+  border-top: 2px solid silver;
+  margin-left: 25%;
+  margin-right: 25%;
+  float: right;
+  border-radius: 25px 25px 0px 0px;
+}
