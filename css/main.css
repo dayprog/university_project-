@@ -10,10 +10,23 @@ body {
 
 .flex-container {
   display: flex;
-  background-color: #265077;
+  /* background-color: #265077; */
+  background: url('images/Jobs2.jpg') no-repeat fixed;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* Шапка */
+header {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* position: absolute; */
+  /* background: url('images/Jobs2.jpg') no-repeat; */
+  min-height: 100vh;
+  /* align-items: baseline; */
 }
 
 .top_menu {
@@ -49,23 +62,15 @@ body {
   max-width: 1000px;
   align-self: center;
   color: #fff;
+  margin-top: 15%;
 }
 
-header {
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-around; */
-  /* position: absolute; */
-  background: url('images/Jobs2.jpg') no-repeat;
-  height: 600px;
-  /* align-items: baseline; */
-}
 
+/* Основной контент */
 main {
   display: flex;
   justify-content: space-around;
-  background-color: #1E4258;
+  /* background-color: #1E4258; */
   flex:1;
 }
 
@@ -73,11 +78,30 @@ aside {
   flex:1;
 }
 .content {
-  flex:3;
+  flex:4;
 }
 
+.content {
+  background-color: #1E4258;
+  padding: 50px;
+  color: #fff;
+}
+
+.sertificates {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 20px;
+  background-color: #1E4258;
+  /* align-self: center; */
+  padding: 10px;
+}
+
+/* Подвал */
 footer {
   background-color: #022140;
-  height: 120px;
+  height: 160px;
   /* align-self: flex-end; */
+  color: #fff;
+  margin-top: 25px;
 }
