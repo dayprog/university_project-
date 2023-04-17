@@ -10,7 +10,6 @@ body {
 
 .flex-container {
   display: flex;
-  /* background-color: #265077; */
   background: url('images/Jobs2.jpg') no-repeat fixed;
   min-height: 100vh;
   flex-direction: column;
@@ -22,11 +21,7 @@ header {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
-  /* position: absolute; */
-  /* background: url('images/Jobs2.jpg') no-repeat; */
   min-height: 100vh;
-  /* align-items: baseline; */
 }
 
 .top_menu {
@@ -70,14 +65,7 @@ header {
 main {
   display: flex;
   justify-content: space-around;
-  /* background-color: #1E4258; */
   flex:1;
-}
-
-@media screen and (max-width: 650px) {
-  main {
-    flex-direction:column;
-  }
 }
 
 aside {
@@ -99,9 +87,14 @@ aside {
   max-width: 300px;
   margin: 0 20px;
   background-color: #1E4258;
-  /* align-self: center; */
   padding: 10px;
   color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  main {
+    flex-direction:column;
+  }
 }
 
 /* Подвал */
